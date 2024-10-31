@@ -1,0 +1,162 @@
+#rss_lightbox{
+	position: absolute;
+	left: 0;
+	width: 100%;
+	z-index: 100;
+	text-align: center;
+	line-height: 0;
+	}
+
+#rss_lightbox a img{ border: none; }
+
+#rss_outerImageContainer{
+	position: relative;
+	background-color: #fff;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	}
+
+#rss_imageContainer{
+	padding: 10px;
+	}
+
+#rss_loading{
+	position: absolute;
+	top: 40%;
+	left: 0%;
+	height: 25%;
+	width: 100%;
+	text-align: center;
+	line-height: 0;
+	}
+
+#rss_hoverNav{
+	position: relative;
+	top: 0;
+	left: 0;
+	/*height:100%;*/
+	width: 100%;
+	z-index: 10;
+	}
+
+#rss_imageContainer>#rss_hoverNav{ left: 0;}
+#rss_hoverNav a{ outline: none;}
+
+#rss_prevLink, #rss_nextLink{
+	width: 15px;
+	height: 15px; /* Trick IE into showing hover */
+	display: block;
+	}
+#rss_prevLink { right: 0; float: left; position:relative;}
+#rss_nextLink { right: 0; float: right; position:relative;}
+#rss_imageDataContainer{
+	font: 10px Verdana, Helvetica, sans-serif;
+	background-color: #fff;
+	margin: 0 auto;
+	line-height: 1.4em;
+	overflow: auto;
+	width: 100%	
+	}
+
+#rss_imageData{	padding:0 10px; color: #666; }
+#rss_imageData #rss_imageDetails{ width: 70%; float: left; text-align: left; }	
+#rss_imageData #rss_caption{
+	color: #990000;
+	font-size: 13px;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+#rss_imageData #rss_numberDisplay{
+	display: block;
+	clear: both;
+	padding-bottom: 1em;
+	margin:0 auto 0 auto;
+	width:100%;
+	position:relative;
+	text-align: left;
+}			
+/*#rss_imageData #rss_bottomNavClose{ width: 66px; float: right;  padding-bottom: 0.7em;	}*/
+
+#rss_bottomNavClose { 
+	position: relative;
+	right: 0;
+	top: 0;
+}	
+
+#rss_bottomNav { 
+	position: absolute;
+	right: 0;
+	top: 0;
+}	
+
+
+		
+#rss_overlay{
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	}
+
+#rss_enlaces {
+	color: #000000;
+	text-align: left;
+	width: 80%;
+	margin:0px auto 5px auto;
+	
+
+}
+
+#rss_enlaces a {
+	color:#333333;
+	text-decoration: none;
+}
+
+#rss_enlaces a:hover {
+	color:#2F4ABB;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+#rss_credito {
+    color:#999999;
+	font-size:10px;
+	font-weight:normal;
+	line-height:14px;
+	padding-top:1px;
+}
+
+#rss_descripgal {
+	color:#000000;
+	font-size:10px;
+	font-weight:bold;
+	line-height:14px;
+	padding-top:1px;
+}
+
+
+#rss_LoaderRssOverlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 90;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+}
+#rss_loadingRssContainer{
+	position: absolute;
+	width:100%;
+	z-index: 91;
+	width: 100%;
+	height: auto;
+	margin: 0 auto 0 auto;
+}
+#rss_imageRssLoader {
+	padding:0px;
+	margin:0px;
+}
